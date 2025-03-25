@@ -1,0 +1,35 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境（conda 或 venv）
+env/
+venv/
+.venv/
+*.egg-info/
+
+# 日志文件和临时文件
+*.log
+*.out
+*.tmp
+
+# 操作系统生成的无用文件
+.DS_Store
+Thumbs.db
+
+# Jupyter输出文件（如大图片/临时缓存）
+*.png
+*.pdf
+
+# VSCode编辑器配置（如果使用）
+.vscode/
+
+# Conda环境配置文件（如果生成了 lock）
+*.conda-lock
+
+# 忽略隐藏的环境文件（如 .env）
+.env
